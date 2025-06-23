@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News Network</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span class="date-time" id="datetime"></span>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Global<span>News</span></h1>
+                <p>Your trusted source for daily updates</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search news...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="menu" id="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Breaking News Ticker -->
+    <div class="breaking-news">
+        <div class="container">
+            <span class="breaking-label">Breaking:</span>
+            <div class="ticker">
+                <ul id="ticker-list">
+                    <li><a href="#">Major breakthrough in renewable energy announced by scientists</a></li>
+                    <li><a href="#">Global summit on climate change begins today</a></li>
+                    <li><a href="#">Stock markets reach record highs amid economic recovery</a></li>
+                    <li><a href="#">New space telescope captures stunning images of distant galaxy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Featured Article -->
+        <section class="featured-article">
+            <div class="featured-image">
+                <img src= "images/world.jpg"Featured News">
+                <div class="category-tag world">World</div>
+            </div>
+            <div class="featured-content">
+                <h2>Global Leaders Gather for Annual Summit on Climate Change</h2>
+                <p class="meta">By Pratik Kolhe | June 10, 2025 | 5 min read</p>
+                <p>World leaders from over 100 countries are meeting in Paris this week to discuss urgent climate action. The summit aims to establish new targets for carbon emissions and renewable energy adoption...</p>
+                <a href="#" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- News Grid -->
+        <section class="news-grid">
+            <article class="news-card">
+                <div class="card-image">
+                    <img src= "images/politics.jpg" alt="News">
+                    <div class="category-tag politics">Politics</div>
+                </div>
+                <div class="card-content">
+                    <h3>Senate Approves New Infrastructure Bill After Months of Debate</h3>
+                    <p class="meta">By Sarah Johnson | June 9, 2025</p>
+                    <p>The $1.2 trillion package includes funding for roads, bridges, and broadband expansion across the country.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="images/technology.jpg" alt="News">
+                    <div class="category-tag technology">Technology</div>
+                </div>
+                <div class="card-content">
+                    <h3>Tech Giant Unveils Revolutionary AI Assistant</h3>
+                    <p class="meta">By Michael Chen | June 9, 2025</p>
+                    <p>The new AI system can understand and respond to complex human emotions, setting a new standard for virtual assistants.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="card-image">
+                    <img src= "images/health.jpg" alt="News">
+                    <div class="category-tag health">Health</div>
+                </div>
+                <div class="card-content">
+                    <h3>Breakthrough in Cancer Treatment Shows Promising Results</h3>
+                    <p class="meta">By Dr. Emily Wilson | June 8, 2025</p>
+                    <p>Clinical trials demonstrate 80% success rate in treating previously resistant forms of cancer.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Category Sections -->
+        <section class="category-section">
+            <h2 class="section-title">World News</h2>
+            <div class="category-articles">
+                <article class="category-article">
+                    <img src="images/ceasefire.jpg" alt="World News">
+                    <div class="article-content">
+                        <h3>UN Calls for Immediate Ceasefire in Regional Conflict</h3>
+                        <p class="meta">June 10, 2025</p>
+                    </div>
+                </article>
+                <article class="category-article">
+                    <img src="images/heatwave.jpg" alt="World News">
+                    <div class="article-content">
+                        <h3>Record Heatwave Sweeps Across Europe</h3>
+                        <p class="meta">June 9, 2025</p>
+                    </div>
+                </article>
+                <article class="category-article">
+                    <img src="images/trade.jpg" alt="World News">
+                    <div class="article-content">
+                        <h3>New Trade Agreement Signed Between Asian Nations</h3>
+                        <p class="meta">June 8, 2025</p>
+                    </div>
+                </article>
+                <article class="category-article">
+                    <img src="images/ancient.jpg" alt="World News">
+                    <div class="article-content">
+                        <h3>Archaeologists Discover Ancient City in Amazon</h3>
+                        <p class="meta">June 7, 2025</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2 class="section-title">Technology</h2>
+            <div class="category-articles">
+                <article class="category-article">
+                    <img src="images/quantum.jpg" alt="Tech News">
+                    <div class="article-content">
+                        <h3>Quantum Computing Breakthrough Announced</h3>
+                        <p class="meta">June 10, 2025</p>
+                    </div>
+                </article>
+                <article class="category-article">
+                    <img src="images/phone.jpg" alt="Tech News">
+                    <div class="article-content">
+                        <h3>New Smartphone Features Revolutionary Camera Tech</h3>
+                        <p class="meta">June 9, 2025</p>
+                    </div>
+                </article>
+                <article class="category-article">
+                    <img src="images/socialmedia.jpg" alt="Tech News">
+                    <div class="article-content">
+                        <h3>Social Media Platform Announces Major Privacy Updates</h3>
+                        <p class="meta">June 8, 2025</p>
+                    </div>
+                </article>
+                <article class="category-article">
+                    <img src="images/cars.jpg" alt="Tech News">
+                    <div class="article-content">
+                        <h3>Automakers Reveal New Electric Vehicle Lineup</h3>
+                        <p class="meta">June 7, 2025</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for daily news updates delivered to your inbox</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Global News</h3>
+                    <p>Delivering accurate, unbiased news from around the world since 1995. Our team of dedicated journalists works around the clock to bring you the latest developments.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">World</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 In Global News, Media City</li>
+                        <li><i class="fas fa-phone"></i> +91 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@globalnews.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Global News Network. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
